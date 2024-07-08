@@ -71,6 +71,7 @@
         
         <label for="other">其他類別：</label>
         <select name="other" id="other" title="類別選項">
+            <option value="">請選擇</option>
             <optgroup label="分類一">
                 <option value="選項1">選項1</option>
                 <option value="選項2">選項2</option>
@@ -101,6 +102,20 @@
             <legend>會員類型：</legend>
         <input type="radio" name="category" id="category-1"value="類型一">
         <label for="member-1">類型一</label>
+        
+        <input type="radio" name="category" id="category-2"value="類型二">
+        <label for="category-2">類型二</label>
+
+        <input type="radio" name="category" id="category-3"value="類型三">
+        <label for="category-3">類型三</label>
+
+        <!-- radio必須帶值，才能回傳值給資料庫 -->
+        </fieldset>
+        <!-- 還沒寫完 -->
+        <fieldset>
+            <legend>訂閱內容：<small>可複選</small></legend>
+        <input type="checkbox" name="order" id="order-1"value="國際">
+        <label for="order-1">類型一</label>
         
         <input type="radio" name="category" id="category-2"value="類型二">
         <label for="category-2">類型二</label>
